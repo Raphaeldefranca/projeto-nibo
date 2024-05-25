@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+:root {
+
+    --cor0:#FFFFFF;
+    --cor01: #F0F0F0;
+    --cor02:#61686A;
+    --cor03:#313336;
+    --cor04:#FFC200;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: var(--cor01 );
+}
+
+body #main {
+    background-color: var(--cor0);
+    width: 700px;
+    height: 900px;
+    margin: auto;
+    color: black;
+    text-align: justify;
+}
+
+.logo {
+    padding: 16px;
+}
+
+.logo img {
+    width: 80px;
+}
+
+
+.BF {
+    background-image: url(/resource/blackfriday-bg-emails.png);
+    height: 26%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    JUSTIFY-CONTENT: space-evenly;
+    ALIGN-ITEMS: CENTER;
+
+}
+
+.text_bf {
+    width: 50%;
+    text-align: center;
+    font-size: 23px;
+}
+
+.counter {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.counter .timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zero {
+    font-size: 38px;
+}
+
+.label {
+    font-size: 10px;
+    color: orange;
+}
+
+
+
+.badge- {
+    width: 8rem;
+}
+
+.text_intro {
+    padding: 30px;
+}
+
+.border {
+    border-left: 4px solid #FFC200;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-image: url(./resource/check-yellow.png);
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+.div_butao {
+    display: flex;
+    justify-content: center;
+}
+
+.butão {
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 134px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--cor03);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 14px;
+}
+
+footer img {
+    width: 37px;
+}
+
+.text_bellow {
+    margin: 30px;
+    display: flex;
+    align-items: justify;
+    color: #00000091;
+}
+
+
+
